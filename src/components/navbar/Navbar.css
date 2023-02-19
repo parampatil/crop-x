@@ -1,0 +1,32 @@
+@keyframes slideInLeft {
+  0% {
+    transform: translatey(-100%);
+  }
+  100% {
+    transform: translatey(0);
+  }
+}
+
+.nav-bar {
+  animation: 1s ease-out 0s 1 slideInLeft;
+  background-color: #041562;
+}
+
+.nav-bar img {
+  height: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  font-size: 20px;
+}
+
+.right-side-items li {
+  background-color: #da1212;
+}
